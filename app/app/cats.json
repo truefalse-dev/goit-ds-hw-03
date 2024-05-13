@@ -1,0 +1,56 @@
+[
+    {
+        "name": "Barsik",
+        "age": 5,
+        "features": [
+            "brown"
+        ]
+    },
+    {
+        "name": "Rocky",
+        "age": 2,
+        "features": [
+            "yellow",
+            "cute"
+        ]
+    },
+    {
+        "name": "Grey",
+        "age": 2,
+        "features": [
+            "gray",
+            "tender"
+        ]
+    },
+    {
+        "name": "Cherry",
+        "age": 1,
+        "features": [
+            "red",
+            "cute"
+        ]
+    },
+    {
+        "name": "Lord",
+        "age": 5,
+        "features": [
+            "black",
+            "angry"
+        ]
+    },
+    {
+        "name": "Spuky",
+        "age": 6,
+        "features": [
+            "white",
+            "bald"
+        ]
+    },
+    {
+        "name": "Lola",
+        "age": 1,
+        "features": [
+            "white"
+        ]
+    }
+]
