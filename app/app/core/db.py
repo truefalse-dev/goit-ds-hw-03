@@ -1,5 +1,5 @@
 import os
-from pymongo import MongoClient
+from pymongo import MongoClient, errors
 from pymongo.server_api import ServerApi
 
 class DbConnection:
@@ -7,12 +7,19 @@ class DbConnection:
     __instance = None
     
     class Singleton:
+
+        client = None
+
         def __init__(self):
             # Initialise mongo client
-            self.client = MongoClient(
-                os.getenv('MONGODB'),
-                server_api=ServerApi('1')
-            )
+           try:
+                self.client = MongoClient(
+                    os.getenv('MONGODB'),
+                    server_api=ServerApi('1')
+                )
+           except errors.ConfigurationError as e:
+               print(e)
+               exit()
 
     def __init__(self):
         if not DbConnection.__instance:
