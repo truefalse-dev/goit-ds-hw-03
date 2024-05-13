@@ -5,4 +5,4 @@ poetry install<br/>
 ### Task 1<br/>
 poetry run mongo<br/>
 ### Task 2<br/>
-poetry run scrapping<br/>
+poetry run scraping<br/>
