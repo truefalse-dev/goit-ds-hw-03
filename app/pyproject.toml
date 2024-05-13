@@ -7,7 +7,7 @@ readme = "README.md"
 
 [tool.poetry.scripts]
 mongo = "app.mongo:main"
-scrapping = "app.scrapping:main"
+scraping = "app.scraping:main"
 
 [tool.poetry.dependencies]
 python = "^3.11"
@@ -16,7 +16,6 @@ requests = "^2.31.0"
 bs4 = "^0.0.2"
 lxml = "^5.2.2"
 python-dotenv = "^1.0.1"
-
 
 [build-system]
 requires = ["poetry-core"]
